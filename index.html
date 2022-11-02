@@ -178,7 +178,7 @@
 
    
 
-    <form   method="POST" data-netlify="true" action="#">     
+    <form   method="GET" data-netlify="true" action="./index.html">     
           <div class= "mb-3">           
             <input type="email" class="form-control" id="email" name="email" placeholder="Email">
           </div>
@@ -198,7 +198,7 @@
         </div>
 
         <div class="mb-3">
-          <button type="submit" class=" btn btn-primary w-100 fs-5"><a class="nav-link active" aria-current="page" href="index.html"></a>Enviar Mensaje</button>
+          <button type="submit" onsubmit="console.log('boton');" class=" btn btn-primary w-100 fs-5">Enviar Mensaje</button>
         </div>
     </form>
 
